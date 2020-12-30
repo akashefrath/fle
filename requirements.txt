@@ -1,0 +1,4 @@
+aiohttp
+yarl
+telethon==1.18.2
+cryptg

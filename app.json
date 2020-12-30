@@ -1,0 +1,37 @@
+{
+ "name": "ak",
+ "description": "ak",
+ "logo": "https://gravatar.com/avatar/baaffd694f9d4acb3fa46517dcc6ec84?s=96&d=https://dashboard.heroku.com%2Fimages%2Fstatic%2Fninja-avatar-48x48.png",
+ "keywords": [
+   "telegram",
+   "FiletoLinkBot"
+  ],
+ "repository": "https://github.com/akashefrath/FL",
+ "env": {
+   "TG_API_ID": {
+      "description": "Your Telegram API ID. Get this value from my.telegram.org!",
+      "value": "1738788"
+  },
+   "TG_API_HASH": {
+      "description": " Your Telegram API hash. Get this value from my.telegram.org!",
+      "value": "8ae31983b16803f787f4fb4751f769ca"
+  },
+   "TG_BOT_FATHER_TOKEN": {
+      "description": "Your bot token, as a string.",
+      "value": "1222088883:AAFhuFumbbqmczmvK0RfVlZ6-zzU03ooMew"
+  },
+   "HOST": {
+      "description": "Leave the Same Value",
+      "value": "0.0.0.0",
+      "required": false
+  },
+   "PUBLIC_URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": "https://akashfu.herokuapp.com"
+  },
+   "TG_START_MESG": {
+      "description": "Set /start Message",
+      "value": "hello"
+  }
+ }
+}
